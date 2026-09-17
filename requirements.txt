@@ -1,0 +1,21 @@
+# ECG Denoising Project — Python Dependencies
+# Install with: pip install -r requirements.txt
+# On Alliance/Nibi HPC: pip install --no-index -r requirements.txt
+
+# Core scientific computing
+numpy>=1.24,<2.0
+scipy>=1.11
+
+# Deep learning
+torch>=2.1
+torchvision>=0.16          # optional but commonly paired with torch
+
+# Data handling
+h5py>=3.9
+pandas>=2.0
+
+# Visualisation
+matplotlib>=3.7
+
+# Progress bars
+tqdm>=4.65

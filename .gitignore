@@ -1,0 +1,60 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# IDE/editor and local assistant metadata
+.idea/
+.vscode/
+.agents/
+.codex/
+.junie/
+
+# OS and Office temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.~lock*
+*.tmp
+
+# Large/generated data and outputs
+data/
+output/
+logs/
+checkpoints/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Local render/check folders produced during manuscript QA
+render_check*/
+.render_*/
+.codex_review_render*/
+
+# Generated preview/intermediate manuscript assets
+_arch_preview.png
+_ctxmodel_preview.png
+_fig2page.jpg
+_ref_fig4.png
+_manuscript_submission.md
+_manuscript_submission_backup.md
+
+# Generated image variants not intended as final submission assets
+Gemini_Generated_Image*.jpg
