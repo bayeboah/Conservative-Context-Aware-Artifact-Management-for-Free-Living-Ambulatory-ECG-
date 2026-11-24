@@ -662,12 +662,14 @@ def plot_before_after(model, h5_path: Path, norm: dict,
                       n_examples: int = 4,
                       mode: str = "model",
                       gate_low: float = 0.02,
-                      gate_high: float = 0.12):
+                      gate_high: float = 0.12,
+                      seed: int = 13):
     """
     Plot ECG before and after denoising for n_examples windows,
     chosen to span a range of MAI values (high motion preferred).
     Also shows IMU magnitude for context.
     """
+    rng = np.random.default_rng(seed)
     ecg_mean = norm["ecg_mean"]
     ecg_std  = norm["ecg_std"]
     imu_mean = np.array(norm["imu_mean"], dtype=np.float32)
@@ -684,14 +686,14 @@ def plot_before_after(model, h5_path: Path, norm: dict,
         rest_idx = np.where(mai_all < 0.02)[0]
         chosen   = []
         if len(walk_idx) >= 2:
-            chosen += list(np.random.choice(walk_idx, 2, replace=False))
+            chosen += list(rng.choice(walk_idx, 2, replace=False))
         if len(rest_idx) >= 2:
-            chosen += list(np.random.choice(rest_idx, 2, replace=False))
+            chosen += list(rng.choice(rest_idx, 2, replace=False))
         if len(chosen) < n_examples:
             remaining = np.setdiff1d(np.arange(n_total), np.array(chosen, dtype=int))
             n_more = min(n_examples - len(chosen), len(remaining))
             if n_more > 0:
-                chosen += list(np.random.choice(remaining, n_more, replace=False))
+                chosen += list(rng.choice(remaining, n_more, replace=False))
         chosen = chosen[:n_examples]
 
         for idx in chosen:

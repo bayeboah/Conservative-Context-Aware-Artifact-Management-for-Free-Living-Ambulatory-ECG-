@@ -13,6 +13,7 @@ torchvision>=0.16          # optional but commonly paired with torch
 # Data handling
 h5py>=3.9
 pandas>=2.0
+wfdb>=4.1
 
 # Visualisation
 matplotlib>=3.7

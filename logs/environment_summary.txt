@@ -1,0 +1,25 @@
+Python: 3.10.20
+Executable: C:\Users\sam\anaconda3\envs\torch_env\python.exe
+Platform: Windows-10-10.0.26200-SP0
+Processor: Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+PyTorch: 2.11.0+cu130
+CUDA available: True
+PyTorch CUDA: 13.0
+cuDNN: 91900
+GPU count: 1
+GPU 0: NVIDIA GeForce RTX 2060
+
+Key packages:
+torch: 2.11.0+cu130
+torchvision: 0.26.0+cu130
+numpy: 2.2.6
+scipy: 1.15.3
+pandas: 2.3.3
+h5py: 3.16.0
+scikit-learn: 1.7.2
+matplotlib: 3.10.9
+openpyxl: 3.1.5
+tqdm: 4.67.3
+wfdb: 4.3.1
+PyWavelets: 1.8.0
+pillow: 12.1.1

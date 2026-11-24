@@ -1,0 +1,23 @@
+{
+  "loss": 1.476894925236702,
+  "cont_loss": 0.0,
+  "aux_loss": 1.476894925236702,
+  "emg_flag_loss": 0.20277082007844002,
+  "emg_ratio_loss": 0.016332197373267264,
+  "R@1_projection": 0.0,
+  "R@1_encoder": 0.0,
+  "embedding_cosine_mean": 0.0,
+  "projection_cosine_mean": 0.0,
+  "positive_margin_mean": 0.0,
+  "positive_margin_median": 0.0,
+  "mai_gate_pct": 32.484375,
+  "mai_mae": 0.013867566008404992,
+  "activity_acc": 0.9548828125,
+  "body_position_acc": 0.9884375,
+  "noise_acc": 1.0,
+  "noise_best_f1": 0.0,
+  "rpeak_reliable_acc": 0.5633203125,
+  "emg_flag_acc": 0.9954296875,
+  "emg_best_f1": 0.12396694214876033,
+  "emg_ratio_mae": 0.15203053552366327
+}

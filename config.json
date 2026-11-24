@@ -1,8 +1,8 @@
 {
-    "data_root": "D:/CACHETCADB/CachetCadb",
-    "output_root": "C:/Users/sam/OneDrive/Desktop/ECG_Denoising/output",
-    "checkpoint_dir": "C:/Users/sam/OneDrive/Desktop/ECG_Denoising/checkpoints",
-    "log_dir": "C:/Users/sam/OneDrive/Desktop/ECG_Denoising/logs",
+    "data_root": "./data/CachetCadb",
+    "output_root": "./output",
+    "checkpoint_dir": "./checkpoints",
+    "log_dir": "./logs",
     "emg_threshold": 0.31423882860690355,
     "ecg_fs": 1024,
     "imu_fs_raw": 64,

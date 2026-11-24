@@ -1,0 +1,541 @@
+{
+  "split": "test",
+  "risk_sample": true,
+  "risk_sample_seed": 13,
+  "n_chunks": 100,
+  "n_windows": 25600,
+  "half_win_ms": 150,
+  "valid_qrs_template_windows": 25289,
+  "dropped_qrs_template_windows": 311,
+  "emg_windows": 704,
+  "emg_valid_qrs_template_windows": 700,
+  "emg_dropped_qrs_template_windows": 4,
+  "counts_by_cause": {
+    "valid": 25289,
+    "no_in_bounds_rpeak": 311
+  },
+  "counts_by_emg": {
+    "not_emg": {
+      "valid": 24589,
+      "no_in_bounds_rpeak": 307
+    },
+    "emg_flagged": {
+      "valid": 700,
+      "no_in_bounds_rpeak": 4
+    }
+  },
+  "counts_by_rpeak_reliable": {
+    "rpeak_reliable": {
+      "valid": 6236,
+      "no_in_bounds_rpeak": 1
+    },
+    "rpeak_unreliable": {
+      "valid": 19053,
+      "no_in_bounds_rpeak": 310
+    }
+  },
+  "mean_raw_peaks_per_window": 12.254375,
+  "mean_in_bounds_peaks_per_window": 11.886171875,
+  "dropped_examples_first_50": [
+    {
+      "patient_id": "P11",
+      "day": 3,
+      "window_idx": 6640,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P11",
+      "day": 10,
+      "window_idx": 1842,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P11",
+      "day": -1,
+      "window_idx": 3848,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P11",
+      "day": 11,
+      "window_idx": 7469,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P6",
+      "day": 1,
+      "window_idx": 4591,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P6",
+      "day": 1,
+      "window_idx": 4592,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P6",
+      "day": 1,
+      "window_idx": 4593,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P6",
+      "day": 6,
+      "window_idx": 5366,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 1,
+      "window_idx": 8035,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 1,
+      "window_idx": 8057,
+      "emg_flagged": false,
+      "rpeaks_reliable": true,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 2,
+      "window_idx": 2535,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 2,
+      "window_idx": 4475,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 2,
+      "window_idx": 5545,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 6,
+      "window_idx": 6621,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 6,
+      "window_idx": 6961,
+      "emg_flagged": true,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 5882,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 7201,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 8040,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 8200,
+      "emg_flagged": true,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 8201,
+      "emg_flagged": true,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 8202,
+      "emg_flagged": true,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": 5,
+      "window_idx": 8638,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 5,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 16,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 18,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 32,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 39,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 43,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 55,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 65,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 76,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 82,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 98,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 111,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 131,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 144,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 154,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 156,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 223,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 224,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 228,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 245,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 256,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 261,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 277,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 301,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 338,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 341,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 346,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 1,
+      "n_in_bounds_peaks": 0
+    },
+    {
+      "patient_id": "P9",
+      "day": -1,
+      "window_idx": 356,
+      "emg_flagged": false,
+      "rpeaks_reliable": false,
+      "cause": "no_in_bounds_rpeak",
+      "n_raw_peaks": 2,
+      "n_in_bounds_peaks": 0
+    }
+  ]
+}

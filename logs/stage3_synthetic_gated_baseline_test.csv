@@ -1,0 +1,217 @@
+comparison,stratum,metric,n,A_mean,B_mean,A_minus_B,ci95_low,ci95_high,wilcoxon_p,unit,higher_is_better,cluster_n_patients,cluster_ci95_low,cluster_ci95_high,patient_wilcoxon_p
+synthetic_gated_minus_synthetic,all,legacy_delta_snr,25600,12.277745,13.333940,-1.056195,-1.117724,-0.996281,0,ratio-difference,True,4,-1.655322,-0.170848,0.125
+synthetic_gated_minus_synthetic,all,qrs_motion_delta_snr,25600,-0.136160,-0.177989,0.041829,0.037593,0.046486,0,ratio-difference,True,4,0.004472,0.064646,0.125
+synthetic_gated_minus_synthetic,all,artifact_log_reduction,25600,-0.996839,-1.096680,0.099841,0.094657,0.105303,3e-304,natural-log power reduction,True,4,0.030394,0.123332,0.125
+synthetic_gated_minus_synthetic,all,hf_noise_log_reduction,25600,-2.110277,-2.396094,0.285817,0.277497,0.293692,0,natural-log power reduction,True,4,0.202707,0.369708,0.125
+synthetic_gated_minus_synthetic,all,qrs_corr,25289,0.831065,0.814418,0.016647,0.016033,0.017256,0,correlation,True,4,0.006034,0.023344,0.125
+synthetic_gated_minus_synthetic,all,residual_rms,25600,0.017773,0.019421,-0.001648,-0.001689,-0.001609,0,normalised ECG amplitude,False,4,-0.001938,-0.001252,0.125
+synthetic_gated_minus_synthetic,all,beat_f1,25600,0.976782,0.974377,0.002405,0.002145,0.002666,8.91e-104,F1 (input-vs-output beat agreement),True,4,0.000524,0.003467,0.125
+synthetic_gated_minus_synthetic,all,beat_sens,25600,0.975851,0.973474,0.002377,0.002104,0.002666,3.06e-77,sensitivity (beat retention),True,4,0.000488,0.003547,0.125
+synthetic_gated_minus_synthetic,all,rr_mae_ms,24992,24.749228,26.815632,-2.066403,-2.976852,-1.279104,2.57e-173,milliseconds,False,4,-2.868670,-0.272217,0.125
+synthetic_gated_minus_synthetic,low_risk_identity,legacy_delta_snr,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,qrs_motion_delta_snr,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,artifact_log_reduction,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,hf_noise_log_reduction,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,qrs_corr,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,correlation,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,residual_rms,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,normalised ECG amplitude,False,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,beat_f1,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,F1 (input-vs-output beat agreement),True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,beat_sens,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,sensitivity (beat retention),True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,low_risk_identity,rr_mae_ms,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,milliseconds,False,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,high_mai,legacy_delta_snr,9793,31.933331,33.527490,-1.594159,-1.706492,-1.484509,0,ratio-difference,True,4,-2.315639,-0.198333,0.125
+synthetic_gated_minus_synthetic,high_mai,qrs_motion_delta_snr,9793,-0.333360,-0.349505,0.016145,0.013932,0.018760,0,ratio-difference,True,4,0.009052,0.035889,0.125
+synthetic_gated_minus_synthetic,high_mai,artifact_log_reduction,9793,-2.415639,-2.484970,0.069331,0.065202,0.073466,2.86e-270,natural-log power reduction,True,4,0.026267,0.095660,0.125
+synthetic_gated_minus_synthetic,high_mai,hf_noise_log_reduction,9793,-5.093419,-5.228927,0.135508,0.130147,0.140720,0,natural-log power reduction,True,4,0.112300,0.164242,0.125
+synthetic_gated_minus_synthetic,high_mai,qrs_corr,9786,0.570246,0.550086,0.020160,0.019208,0.021131,0,correlation,True,4,0.007936,0.024503,0.125
+synthetic_gated_minus_synthetic,high_mai,residual_rms,9793,0.044893,0.046657,-0.001764,-0.001832,-0.001700,0,normalised ECG amplitude,False,4,-0.002317,-0.001374,0.125
+synthetic_gated_minus_synthetic,high_mai,beat_f1,9793,0.941419,0.938418,0.003001,0.002523,0.003487,6.43e-52,F1 (input-vs-output beat agreement),True,4,0.000586,0.004330,0.125
+synthetic_gated_minus_synthetic,high_mai,beat_sens,9793,0.939118,0.936193,0.002925,0.002449,0.003431,1.51e-37,sensitivity (beat retention),True,4,0.000731,0.004531,0.125
+synthetic_gated_minus_synthetic,high_mai,rr_mae_ms,9491,62.034613,64.388096,-2.353484,-4.516232,-0.778045,1.35e-33,milliseconds,False,4,-4.199197,-0.226948,0.125
+synthetic_gated_minus_synthetic,very_high_mai,legacy_delta_snr,5600,42.315748,42.315748,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,qrs_motion_delta_snr,5600,-0.325272,-0.325272,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,artifact_log_reduction,5600,-2.715735,-2.715735,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,hf_noise_log_reduction,5600,-5.602625,-5.602625,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,qrs_corr,5597,0.463814,0.463814,0.000000,0.000000,0.000000,1,correlation,True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,residual_rms,5600,0.054574,0.054574,0.000000,-0.000000,0.000000,2.36e-06,normalised ECG amplitude,False,4,-0.000000,0.000000,0.375
+synthetic_gated_minus_synthetic,very_high_mai,beat_f1,5600,0.933136,0.933136,0.000000,0.000000,0.000000,1,F1 (input-vs-output beat agreement),True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,beat_sens,5600,0.930883,0.930883,0.000000,0.000000,0.000000,1,sensitivity (beat retention),True,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,very_high_mai,rr_mae_ms,5432,72.273535,72.273535,0.000000,0.000000,0.000000,1,milliseconds,False,4,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,high_motion_activity,legacy_delta_snr,1870,32.532541,34.394331,-1.861790,-2.135084,-1.588460,6.5e-118,ratio-difference,True,4,-3.511791,-0.212312,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,qrs_motion_delta_snr,1870,-0.341942,-0.582933,0.240991,0.192668,0.293756,3.9e-105,ratio-difference,True,4,0.012488,0.479061,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,artifact_log_reduction,1870,-2.262298,-2.562708,0.300410,0.269694,0.333698,1.27e-97,natural-log power reduction,True,4,0.015132,0.506913,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,hf_noise_log_reduction,1870,-4.761849,-5.075508,0.313658,0.289316,0.337874,2.59e-134,natural-log power reduction,True,4,0.066211,0.522540,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,qrs_corr,1865,0.559140,0.533970,0.025170,0.022559,0.027988,4.96e-135,correlation,True,4,0.004221,0.046557,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,residual_rms,1870,0.042782,0.046117,-0.003335,-0.003540,-0.003124,2.17e-141,normalised ECG amplitude,False,4,-0.005598,-0.000907,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,beat_f1,1870,0.947687,0.940239,0.007448,0.005890,0.009081,1.39e-22,F1 (input-vs-output beat agreement),True,4,0.001155,0.013606,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,beat_sens,1870,0.945537,0.938277,0.007261,0.005619,0.009137,1.5e-17,sensitivity (beat retention),True,4,0.001546,0.013510,0.125
+synthetic_gated_minus_synthetic,high_motion_activity,rr_mae_ms,1819,48.117044,57.205410,-9.088366,-18.109409,-3.067602,1.29e-12,milliseconds,False,4,-16.695628,-1.031038,0.125
+synthetic_gated_minus_synthetic,context_transition,legacy_delta_snr,1682,25.272688,27.038769,-1.766081,-2.059772,-1.503467,2.48e-63,ratio-difference,True,4,-2.213590,-0.444377,0.125
+synthetic_gated_minus_synthetic,context_transition,qrs_motion_delta_snr,1682,-0.291851,-0.343364,0.051513,0.039011,0.066780,2.69e-51,ratio-difference,True,4,0.009537,0.101019,0.125
+synthetic_gated_minus_synthetic,context_transition,artifact_log_reduction,1682,-2.250108,-2.381147,0.131039,0.108519,0.153905,1.95e-35,natural-log power reduction,True,4,0.040694,0.175667,0.125
+synthetic_gated_minus_synthetic,context_transition,hf_noise_log_reduction,1682,-4.088716,-4.450003,0.361286,0.329320,0.393543,3.17e-103,natural-log power reduction,True,4,0.273046,0.401246,0.125
+synthetic_gated_minus_synthetic,context_transition,qrs_corr,1682,0.678454,0.652304,0.026151,0.023397,0.029076,4.97e-104,correlation,True,4,0.009225,0.029300,0.125
+synthetic_gated_minus_synthetic,context_transition,residual_rms,1682,0.035065,0.037570,-0.002505,-0.002692,-0.002331,1.7e-112,normalised ECG amplitude,False,4,-0.003068,-0.001987,0.125
+synthetic_gated_minus_synthetic,context_transition,beat_f1,1682,0.942107,0.938422,0.003685,0.002401,0.005313,2.17e-12,F1 (input-vs-output beat agreement),True,4,0.000755,0.005150,0.125
+synthetic_gated_minus_synthetic,context_transition,beat_sens,1682,0.942114,0.938473,0.003641,0.002323,0.005341,1.2e-09,sensitivity (beat retention),True,4,0.001155,0.005323,0.125
+synthetic_gated_minus_synthetic,context_transition,rr_mae_ms,1615,53.690681,55.237459,-1.546778,-2.801200,-0.509128,5.66e-13,milliseconds,False,4,-2.228273,-0.395776,0.125
+synthetic_gated_minus_synthetic,noise_annotated,legacy_delta_snr,13,14.346534,14.346534,0.000000,0.000000,0.000000,1,ratio-difference,True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,qrs_motion_delta_snr,13,-0.041053,-0.041053,0.000000,0.000000,0.000000,1,ratio-difference,True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,artifact_log_reduction,13,-2.770334,-2.770334,0.000000,0.000000,0.000000,1,natural-log power reduction,True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,hf_noise_log_reduction,13,-2.101037,-2.101037,0.000000,0.000000,0.000000,1,natural-log power reduction,True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,qrs_corr,13,0.891984,0.891984,0.000000,0.000000,0.000000,1,correlation,True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,residual_rms,13,0.055064,0.055064,0.000000,0.000000,0.000000,1,normalised ECG amplitude,False,2,0.000000,0.000000,1
+synthetic_gated_minus_synthetic,noise_annotated,beat_f1,13,0.967168,0.967168,0.000000,0.000000,0.000000,1,F1 (input-vs-output beat agreement),True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,beat_sens,13,0.962921,0.962921,0.000000,0.000000,0.000000,1,sensitivity (beat retention),True,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,noise_annotated,rr_mae_ms,12,10.253906,10.253906,0.000000,0.000000,0.000000,1,milliseconds,False,2,0.000000,0.000000,nan
+synthetic_gated_minus_synthetic,rpeak_unreliable,legacy_delta_snr,19363,13.303989,14.534759,-1.230770,-1.307363,-1.152444,0,ratio-difference,True,4,-1.741995,-0.179768,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,qrs_motion_delta_snr,19363,-0.137438,-0.183541,0.046103,0.040999,0.051501,0,ratio-difference,True,4,0.002855,0.070199,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,artifact_log_reduction,19363,-1.232467,-1.359101,0.126634,0.119612,0.133652,1.04e-303,natural-log power reduction,True,4,0.040267,0.147719,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,hf_noise_log_reduction,19363,-2.067227,-2.361139,0.293912,0.284923,0.302993,0,natural-log power reduction,True,4,0.201272,0.369780,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,qrs_corr,19053,0.829568,0.811624,0.017944,0.017192,0.018722,0,correlation,True,4,0.004385,0.023442,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,residual_rms,19363,0.017257,0.018921,-0.001663,-0.001709,-0.001615,0,normalised ECG amplitude,False,4,-0.001900,-0.001368,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,beat_f1,19363,0.970582,0.967560,0.003022,0.002687,0.003376,4.28e-96,F1 (input-vs-output beat agreement),True,4,0.000727,0.003808,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,beat_sens,19363,0.969521,0.966539,0.002982,0.002623,0.003337,1.15e-71,sensitivity (beat retention),True,4,0.000731,0.003882,0.125
+synthetic_gated_minus_synthetic,rpeak_unreliable,rr_mae_ms,18758,32.288515,34.927103,-2.638588,-3.920273,-1.618002,7.44e-141,milliseconds,False,4,-3.536871,-0.260173,0.125
+synthetic_gated_minus_synthetic,emg_flagged,legacy_delta_snr,704,16.394024,18.744205,-2.350181,-2.775616,-1.927791,1.26e-80,ratio-difference,True,4,-4.383791,-0.706775,0.125
+synthetic_gated_minus_synthetic,emg_flagged,qrs_motion_delta_snr,704,-0.518925,-1.090638,0.571714,0.450674,0.707093,1.06e-69,ratio-difference,True,4,0.017699,0.674297,0.125
+synthetic_gated_minus_synthetic,emg_flagged,artifact_log_reduction,704,-2.131740,-2.768350,0.636610,0.566365,0.705683,2.95e-68,natural-log power reduction,True,4,0.101180,0.665314,0.125
+synthetic_gated_minus_synthetic,emg_flagged,hf_noise_log_reduction,704,-2.977309,-3.543304,0.565995,0.516181,0.614352,2.77e-88,natural-log power reduction,True,4,0.160262,0.595678,0.125
+synthetic_gated_minus_synthetic,emg_flagged,qrs_corr,700,0.774395,0.738006,0.036389,0.031394,0.041536,1.67e-89,correlation,True,4,0.013720,0.054231,0.125
+synthetic_gated_minus_synthetic,emg_flagged,residual_rms,704,0.025260,0.031100,-0.005840,-0.006168,-0.005507,6.35e-91,normalised ECG amplitude,False,4,-0.006134,-0.001793,0.125
+synthetic_gated_minus_synthetic,emg_flagged,beat_f1,704,0.921855,0.905892,0.015963,0.012292,0.020034,6.05e-18,F1 (input-vs-output beat agreement),True,4,0.006446,0.023379,0.125
+synthetic_gated_minus_synthetic,emg_flagged,beat_sens,704,0.918739,0.901647,0.017092,0.012992,0.021566,6.38e-15,sensitivity (beat retention),True,4,0.007461,0.025418,0.125
+synthetic_gated_minus_synthetic,emg_flagged,rr_mae_ms,689,69.282078,83.080807,-13.798729,-21.801209,-7.162834,2.27e-10,milliseconds,False,4,-25.171830,-2.897047,0.125
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,legacy_delta_snr,2560,14.194592,15.833861,-1.639268,-1.861993,-1.422160,2.93e-122,ratio-difference,True,4,-3.503351,-0.152358,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,qrs_motion_delta_snr,2560,-0.353166,-0.530157,0.176991,0.142408,0.215948,6.34e-102,ratio-difference,True,4,0.019142,0.193008,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,artifact_log_reduction,2560,-1.966625,-2.293554,0.326929,0.296483,0.357426,5.79e-113,natural-log power reduction,True,4,0.072789,0.384776,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,hf_noise_log_reduction,2560,-2.046059,-2.366580,0.320520,0.296641,0.344236,1.6e-149,natural-log power reduction,True,4,0.112283,0.496779,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,qrs_corr,2264,0.800399,0.773864,0.026535,0.023941,0.029098,1.66e-151,correlation,True,4,0.004156,0.054077,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,residual_rms,2560,0.016239,0.018733,-0.002494,-0.002646,-0.002330,3.58e-155,normalised ECG amplitude,False,4,-0.003555,-0.000845,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,beat_f1,2560,0.930647,0.919562,0.011085,0.009394,0.012868,1.18e-41,F1 (input-vs-output beat agreement),True,4,0.002838,0.028291,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,beat_sens,2560,0.928640,0.917079,0.011561,0.009665,0.013589,5.29e-34,sensitivity (beat retention),True,4,0.002956,0.031672,0.25
+synthetic_gated_minus_synthetic,emg_ratio_top10pct,rr_mae_ms,2320,84.698276,93.139228,-8.440952,-14.182413,-4.355427,1.98e-23,milliseconds,False,4,-19.044233,-2.623436,0.25
+synthetic_gated_minus_synthetic,publication_high_noise_patient,legacy_delta_snr,8474,5.626317,6.290858,-0.664540,-0.734630,-0.598875,3.9e-181,ratio-difference,True,1,-0.664540,-0.664540,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,qrs_motion_delta_snr,8474,-0.168424,-0.253067,0.084642,0.071898,0.098586,8.06e-139,ratio-difference,True,1,0.084642,0.084642,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,artifact_log_reduction,8474,-0.539470,-0.645963,0.106493,0.097301,0.116000,1.09e-118,natural-log power reduction,True,1,0.106493,0.106493,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,hf_noise_log_reduction,8474,-1.221151,-1.443134,0.221983,0.210243,0.234424,2.65e-291,natural-log power reduction,True,1,0.221983,0.221983,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,qrs_corr,8171,0.927860,0.917380,0.010480,0.009726,0.011234,1.21e-294,correlation,True,1,0.010480,0.010480,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,residual_rms,8474,0.009429,0.010824,-0.001395,-0.001465,-0.001329,2.3e-305,normalised ECG amplitude,False,1,-0.001395,-0.001395,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,beat_f1,8474,0.991733,0.989819,0.001914,0.001502,0.002344,1.07e-25,F1 (input-vs-output beat agreement),True,1,0.001914,0.001914,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,beat_sens,8474,0.991444,0.989803,0.001641,0.001249,0.002070,8.46e-18,sensitivity (beat retention),True,1,0.001641,0.001641,1
+synthetic_gated_minus_synthetic,publication_high_noise_patient,rr_mae_ms,8145,7.528883,10.519419,-2.990535,-5.449348,-1.264986,4.39e-44,milliseconds,False,1,-2.990535,-2.990535,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,legacy_delta_snr,1659,28.504214,30.712571,-2.208357,-2.514281,-1.948527,2.66e-99,ratio-difference,True,1,-2.208357,-2.208357,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,qrs_motion_delta_snr,1659,-0.760499,-0.803222,0.042723,0.031233,0.058057,3.1e-96,ratio-difference,True,1,0.042723,0.042723,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,artifact_log_reduction,1659,-2.288773,-2.389075,0.100302,0.088189,0.112642,2.21e-66,natural-log power reduction,True,1,0.100302,0.100302,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,hf_noise_log_reduction,1659,-5.402056,-5.580773,0.178716,0.165096,0.192737,3.08e-107,natural-log power reduction,True,1,0.178716,0.178716,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,qrs_corr,1656,0.653581,0.629498,0.024083,0.021755,0.026437,3.94e-107,correlation,True,1,0.024083,0.024083,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,residual_rms,1659,0.045162,0.047777,-0.002615,-0.002809,-0.002432,2e-115,normalised ECG amplitude,False,1,-0.002615,-0.002615,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,beat_f1,1659,0.960770,0.957848,0.002922,0.001867,0.004275,2.34e-10,F1 (input-vs-output beat agreement),True,1,0.002922,0.002922,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,beat_sens,1659,0.959179,0.956826,0.002353,0.001363,0.003601,3.94e-07,sensitivity (beat retention),True,1,0.002353,0.002353,1
+synthetic_gated_minus_synthetic,publication_high_noise_and_high_mai,rr_mae_ms,1570,35.975132,40.578660,-4.603528,-14.487507,1.004413,8.53e-07,milliseconds,False,1,-4.603528,-4.603528,1
+teacher_minus_synthetic_gated,all,legacy_delta_snr,25600,-0.087547,12.277745,-12.365292,-12.765476,-11.996397,0,ratio-difference,True,4,-16.228307,-3.035868,0.125
+teacher_minus_synthetic_gated,all,qrs_motion_delta_snr,25600,0.004820,-0.136160,0.140980,0.135888,0.145867,0,ratio-difference,True,4,0.095779,0.173189,0.125
+teacher_minus_synthetic_gated,all,artifact_log_reduction,25600,0.153550,-0.996839,1.150389,1.121649,1.179024,0,natural-log power reduction,True,4,0.473457,1.442206,0.125
+teacher_minus_synthetic_gated,all,hf_noise_log_reduction,25600,0.048874,-2.110277,2.159151,2.122792,2.192461,0,natural-log power reduction,True,4,1.594758,2.777057,0.125
+teacher_minus_synthetic_gated,all,qrs_corr,25289,0.999918,0.831065,0.168853,0.165387,0.172556,0,correlation,True,4,0.051838,0.224100,0.125
+teacher_minus_synthetic_gated,all,residual_rms,25600,0.008527,0.017773,-0.009246,-0.011206,-0.006732,0,normalised ECG amplitude,False,4,-0.016568,-0.002508,0.25
+teacher_minus_synthetic_gated,all,beat_f1,25600,0.999943,0.976782,0.023161,0.022103,0.024271,0,F1 (input-vs-output beat agreement),True,4,0.005052,0.033553,0.125
+teacher_minus_synthetic_gated,all,beat_sens,25600,0.999935,0.975851,0.024084,0.022945,0.025225,0,sensitivity (beat retention),True,4,0.005552,0.033860,0.125
+teacher_minus_synthetic_gated,all,rr_mae_ms,24996,0.019241,24.861810,-24.842569,-27.871370,-22.107546,0,milliseconds,False,4,-38.795206,-4.332316,0.125
+teacher_minus_synthetic_gated,low_risk_identity,legacy_delta_snr,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,qrs_motion_delta_snr,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,ratio-difference,True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,artifact_log_reduction,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,hf_noise_log_reduction,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,natural-log power reduction,True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,qrs_corr,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,correlation,True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,residual_rms,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,normalised ECG amplitude,False,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,beat_f1,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,F1 (input-vs-output beat agreement),True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,beat_sens,2808,1.000000,1.000000,0.000000,0.000000,0.000000,1,sensitivity (beat retention),True,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,low_risk_identity,rr_mae_ms,2808,0.000000,0.000000,0.000000,0.000000,0.000000,1,milliseconds,False,4,0.000000,0.000000,nan
+teacher_minus_synthetic_gated,high_mai,legacy_delta_snr,9793,-0.209905,31.933331,-32.143235,-33.054060,-31.313706,0,ratio-difference,True,4,-35.539185,-8.174287,0.125
+teacher_minus_synthetic_gated,high_mai,qrs_motion_delta_snr,9793,0.009121,-0.333360,0.342480,0.332199,0.353532,0,ratio-difference,True,4,0.196199,0.660049,0.125
+teacher_minus_synthetic_gated,high_mai,artifact_log_reduction,9793,0.360218,-2.415639,2.775858,2.713421,2.836948,0,natural-log power reduction,True,4,1.145409,3.181720,0.125
+teacher_minus_synthetic_gated,high_mai,hf_noise_log_reduction,9793,0.114568,-5.093419,5.207987,5.170140,5.243436,0,natural-log power reduction,True,4,5.063829,5.605831,0.125
+teacher_minus_synthetic_gated,high_mai,qrs_corr,9786,0.999797,0.570246,0.429550,0.422483,0.436017,0,correlation,True,4,0.156610,0.457535,0.125
+teacher_minus_synthetic_gated,high_mai,residual_rms,9793,0.020535,0.044893,-0.024358,-0.029321,-0.017963,0,normalised ECG amplitude,False,4,-0.031798,-0.008019,0.125
+teacher_minus_synthetic_gated,high_mai,beat_f1,9793,0.999854,0.941419,0.058435,0.055743,0.061262,0,F1 (input-vs-output beat agreement),True,4,0.011745,0.080849,0.125
+teacher_minus_synthetic_gated,high_mai,beat_sens,9793,0.999830,0.939118,0.060712,0.057826,0.063712,0,sensitivity (beat retention),True,4,0.013169,0.082325,0.125
+teacher_minus_synthetic_gated,high_mai,rr_mae_ms,9493,0.045006,62.328410,-62.283403,-69.955764,-55.273396,0,milliseconds,False,4,-92.301384,-10.472425,0.125
+teacher_minus_synthetic_gated,very_high_mai,legacy_delta_snr,5600,-0.204944,42.315748,-42.520692,-43.840115,-41.304211,0,ratio-difference,True,4,-45.704608,-11.295971,0.125
+teacher_minus_synthetic_gated,very_high_mai,qrs_motion_delta_snr,5600,0.008176,-0.325272,0.333447,0.321543,0.345749,0,ratio-difference,True,4,0.239156,0.662644,0.125
+teacher_minus_synthetic_gated,very_high_mai,artifact_log_reduction,5600,0.380210,-2.715735,3.095945,3.014613,3.179658,0,natural-log power reduction,True,4,1.198016,3.549868,0.125
+teacher_minus_synthetic_gated,very_high_mai,hf_noise_log_reduction,5600,0.122348,-5.602625,5.724973,5.676040,5.772056,0,natural-log power reduction,True,4,5.521165,6.119041,0.125
+teacher_minus_synthetic_gated,very_high_mai,qrs_corr,5597,0.999773,0.463814,0.535959,0.526246,0.544619,0,correlation,True,4,0.190980,0.574484,0.125
+teacher_minus_synthetic_gated,very_high_mai,residual_rms,5600,0.023967,0.054574,-0.030607,-0.036631,-0.023895,0,normalised ECG amplitude,False,4,-0.038934,-0.013796,0.125
+teacher_minus_synthetic_gated,very_high_mai,beat_f1,5600,0.999888,0.933136,0.066751,0.063060,0.070674,0,F1 (input-vs-output beat agreement),True,4,0.013469,0.093549,0.125
+teacher_minus_synthetic_gated,very_high_mai,beat_sens,5600,0.999806,0.930883,0.068923,0.064803,0.072981,8.43e-280,sensitivity (beat retention),True,4,0.015473,0.093588,0.125
+teacher_minus_synthetic_gated,very_high_mai,rr_mae_ms,5432,0.048810,72.273535,-72.224725,-82.409693,-62.290107,0,milliseconds,False,4,-114.094820,-10.218009,0.125
+teacher_minus_synthetic_gated,high_motion_activity,legacy_delta_snr,1870,-0.068197,32.532541,-32.600738,-34.507042,-30.713399,3.16e-248,ratio-difference,True,4,-41.513782,-7.041932,0.125
+teacher_minus_synthetic_gated,high_motion_activity,qrs_motion_delta_snr,1870,0.020505,-0.341942,0.362447,0.333805,0.392368,3.9e-246,ratio-difference,True,4,0.227032,0.539593,0.125
+teacher_minus_synthetic_gated,high_motion_activity,artifact_log_reduction,1870,0.322195,-2.262298,2.584493,2.454608,2.715047,1.99e-262,natural-log power reduction,True,4,1.040101,3.173590,0.125
+teacher_minus_synthetic_gated,high_motion_activity,hf_noise_log_reduction,1870,0.098664,-4.761849,4.860513,4.740970,4.982020,1.18e-303,natural-log power reduction,True,4,3.816128,6.128782,0.125
+teacher_minus_synthetic_gated,high_motion_activity,qrs_corr,1865,0.999868,0.559140,0.440728,0.421904,0.459608,1.35e-298,correlation,True,4,0.127098,0.562241,0.125
+teacher_minus_synthetic_gated,high_motion_activity,residual_rms,1870,0.011707,0.042782,-0.031075,-0.034964,-0.026168,1.41e-249,normalised ECG amplitude,False,4,-0.047127,-0.011363,0.125
+teacher_minus_synthetic_gated,high_motion_activity,beat_f1,1870,0.999935,0.947687,0.052248,0.046183,0.058492,5.7e-99,F1 (input-vs-output beat agreement),True,4,0.013594,0.086318,0.125
+teacher_minus_synthetic_gated,high_motion_activity,beat_sens,1870,1.000000,0.945537,0.054463,0.048184,0.061511,8.05e-76,sensitivity (beat retention),True,4,0.015409,0.085658,0.125
+teacher_minus_synthetic_gated,high_motion_activity,rr_mae_ms,1821,0.035931,48.064197,-48.028266,-62.383976,-35.942762,2.27e-221,milliseconds,False,4,-83.510908,-13.146688,0.125
+teacher_minus_synthetic_gated,context_transition,legacy_delta_snr,1682,-0.154053,25.272688,-25.426741,-27.421212,-23.449921,1.78e-172,ratio-difference,True,4,-29.632363,-5.985381,0.125
+teacher_minus_synthetic_gated,context_transition,qrs_motion_delta_snr,1682,0.009469,-0.291851,0.301320,0.274947,0.329368,5.43e-178,ratio-difference,True,4,0.148973,0.438635,0.125
+teacher_minus_synthetic_gated,context_transition,artifact_log_reduction,1682,0.291551,-2.250108,2.541660,2.396161,2.695862,1.12e-211,natural-log power reduction,True,4,0.877326,3.015448,0.125
+teacher_minus_synthetic_gated,context_transition,hf_noise_log_reduction,1682,0.095142,-4.088716,4.183858,4.067516,4.302451,8.37e-261,natural-log power reduction,True,4,4.023227,4.557293,0.125
+teacher_minus_synthetic_gated,context_transition,qrs_corr,1682,0.999835,0.678454,0.321380,0.304305,0.336845,1.39e-255,correlation,True,4,0.126993,0.360629,0.125
+teacher_minus_synthetic_gated,context_transition,residual_rms,1682,0.023795,0.035065,-0.011270,-0.020935,0.001205,9.1e-203,normalised ECG amplitude,False,4,-0.015135,-0.008013,0.125
+teacher_minus_synthetic_gated,context_transition,beat_f1,1682,0.999979,0.942107,0.057873,0.051456,0.064301,3.62e-90,F1 (input-vs-output beat agreement),True,4,0.014272,0.071985,0.125
+teacher_minus_synthetic_gated,context_transition,beat_sens,1682,0.999960,0.942114,0.057846,0.051448,0.064719,4.83e-73,sensitivity (beat retention),True,4,0.016217,0.070808,0.125
+teacher_minus_synthetic_gated,context_transition,rr_mae_ms,1615,0.023280,53.690681,-53.667400,-70.089818,-40.239598,9.68e-194,milliseconds,False,4,-74.874255,-8.344648,0.125
+teacher_minus_synthetic_gated,noise_annotated,legacy_delta_snr,13,-0.536674,14.346534,-14.883208,-32.161498,-2.397839,0.0479,ratio-difference,True,2,-40.369578,-3.555932,0.5
+teacher_minus_synthetic_gated,noise_annotated,qrs_motion_delta_snr,13,0.001779,-0.041053,0.042832,0.011297,0.085787,0.0681,ratio-difference,True,2,0.037941,0.045007,0.5
+teacher_minus_synthetic_gated,noise_annotated,artifact_log_reduction,13,0.272148,-2.770334,3.042482,1.724338,4.428500,0.000488,natural-log power reduction,True,2,1.781662,5.879328,0.5
+teacher_minus_synthetic_gated,noise_annotated,hf_noise_log_reduction,13,0.139746,-2.101037,2.240782,0.737176,3.984335,0.00171,natural-log power reduction,True,2,0.305848,6.594384,0.5
+teacher_minus_synthetic_gated,noise_annotated,qrs_corr,13,0.999846,0.891984,0.107861,0.039451,0.199430,0.000244,correlation,True,2,0.068887,0.195554,0.5
+teacher_minus_synthetic_gated,noise_annotated,residual_rms,13,0.008522,0.055064,-0.046543,-0.052089,-0.040907,0.000244,normalised ECG amplitude,False,2,-0.048983,-0.045458,0.5
+teacher_minus_synthetic_gated,noise_annotated,beat_f1,13,1.000000,0.967168,0.032832,0.004396,0.066112,0.125,F1 (input-vs-output beat agreement),True,2,0.000000,0.047424,1
+teacher_minus_synthetic_gated,noise_annotated,beat_sens,13,1.000000,0.962921,0.037079,0.008547,0.072469,0.125,sensitivity (beat retention),True,2,0.000000,0.053558,1
+teacher_minus_synthetic_gated,noise_annotated,rr_mae_ms,12,0.000000,10.253906,-10.253906,-19.169108,-2.685547,0.00391,milliseconds,False,2,-13.237847,-1.302083,0.5
+teacher_minus_synthetic_gated,rpeak_unreliable,legacy_delta_snr,19363,-0.100991,13.303989,-13.404980,-13.886641,-12.934201,0,ratio-difference,True,4,-18.032148,-3.228924,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,qrs_motion_delta_snr,19363,0.005441,-0.137438,0.142879,0.137481,0.148500,0,ratio-difference,True,4,0.091440,0.168652,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,artifact_log_reduction,19363,0.149237,-1.232467,1.381704,1.345670,1.416828,0,natural-log power reduction,True,4,0.710499,1.680461,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,hf_noise_log_reduction,19363,0.048828,-2.067227,2.116056,2.077558,2.154031,0,natural-log power reduction,True,4,1.690297,3.340748,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,qrs_corr,19053,0.999907,0.829568,0.170338,0.166003,0.174586,0,correlation,True,4,0.059763,0.228973,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,residual_rms,19363,0.010199,0.017257,-0.007058,-0.009613,-0.003623,0,normalised ECG amplitude,False,4,-0.014170,-0.000931,0.25
+teacher_minus_synthetic_gated,rpeak_unreliable,beat_f1,19363,0.999926,0.970582,0.029344,0.027916,0.030736,0,F1 (input-vs-output beat agreement),True,4,0.006938,0.037086,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,beat_sens,19363,0.999917,0.969521,0.030396,0.028879,0.031958,0,sensitivity (beat retention),True,4,0.007575,0.038814,0.125
+teacher_minus_synthetic_gated,rpeak_unreliable,rr_mae_ms,18762,0.022850,32.436897,-32.414047,-36.230961,-28.655723,0,milliseconds,False,4,-43.049343,-6.006787,0.125
+teacher_minus_synthetic_gated,emg_flagged,legacy_delta_snr,704,-0.044996,16.394024,-16.439020,-19.239144,-13.784978,4.67e-79,ratio-difference,True,4,-38.895940,-4.891340,0.125
+teacher_minus_synthetic_gated,emg_flagged,qrs_motion_delta_snr,704,0.043567,-0.518925,0.562492,0.498564,0.626323,2.22e-76,ratio-difference,True,4,0.257979,0.597939,0.125
+teacher_minus_synthetic_gated,emg_flagged,artifact_log_reduction,704,0.242417,-2.131740,2.374157,2.153733,2.613292,1.72e-90,natural-log power reduction,True,4,0.928747,4.926886,0.125
+teacher_minus_synthetic_gated,emg_flagged,hf_noise_log_reduction,704,0.073679,-2.977309,3.050988,2.855585,3.247364,8.02e-111,natural-log power reduction,True,4,2.927232,5.725418,0.125
+teacher_minus_synthetic_gated,emg_flagged,qrs_corr,700,0.999908,0.774395,0.225513,0.202514,0.249274,5.07e-107,correlation,True,4,0.108822,0.585136,0.125
+teacher_minus_synthetic_gated,emg_flagged,residual_rms,704,0.013600,0.025260,-0.011660,-0.019101,-0.000308,1.88e-75,normalised ECG amplitude,False,4,-0.038681,-0.008993,0.125
+teacher_minus_synthetic_gated,emg_flagged,beat_f1,704,0.999827,0.921855,0.077972,0.065327,0.091287,3.58e-37,F1 (input-vs-output beat agreement),True,4,0.009908,0.328018,0.125
+teacher_minus_synthetic_gated,emg_flagged,beat_sens,704,1.000000,0.918739,0.081261,0.068315,0.095381,4.18e-33,sensitivity (beat retention),True,4,0.012637,0.337747,0.125
+teacher_minus_synthetic_gated,emg_flagged,rr_mae_ms,691,0.089742,69.081551,-68.991809,-92.538783,-50.282723,3.2e-67,milliseconds,False,4,-262.988318,-10.345284,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,legacy_delta_snr,2560,-0.065237,14.194592,-14.259829,-15.465549,-13.027400,3.96e-200,ratio-difference,True,4,-23.492712,-2.857449,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,qrs_motion_delta_snr,2560,0.018189,-0.353166,0.371355,0.344866,0.398203,3.87e-199,ratio-difference,True,4,0.201935,0.563747,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,artifact_log_reduction,2560,0.142911,-1.966625,2.109536,1.981266,2.238939,5.92e-224,natural-log power reduction,True,4,0.038506,3.895766,0.25
+teacher_minus_synthetic_gated,emg_ratio_top10pct,hf_noise_log_reduction,2560,0.048895,-2.046059,2.094954,1.996185,2.197481,3.25e-244,natural-log power reduction,True,4,1.440134,3.476446,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,qrs_corr,2264,0.999900,0.800399,0.199501,0.186945,0.211639,1.03e-237,correlation,True,4,0.088897,0.317497,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,residual_rms,2560,0.006218,0.016239,-0.010020,-0.012566,-0.006690,1.46e-186,normalised ECG amplitude,False,4,-0.046460,-0.006951,0.125
+teacher_minus_synthetic_gated,emg_ratio_top10pct,beat_f1,2560,0.999862,0.930647,0.069214,0.063250,0.075306,3.07e-117,F1 (input-vs-output beat agreement),True,4,0.003100,0.200954,0.25
+teacher_minus_synthetic_gated,emg_ratio_top10pct,beat_sens,2560,0.999845,0.928640,0.071205,0.064436,0.077729,2.86e-102,sensitivity (beat retention),True,4,0.003612,0.201471,0.25
+teacher_minus_synthetic_gated,emg_ratio_top10pct,rr_mae_ms,2323,0.082396,84.930249,-84.847853,-100.588008,-69.970009,2.7e-174,milliseconds,False,4,-207.379254,-3.803425,0.25
+teacher_minus_synthetic_gated,publication_high_noise_patient,legacy_delta_snr,8474,-0.057848,5.626317,-5.684166,-6.125145,-5.265572,1.1e-249,ratio-difference,True,1,-5.684166,-5.684166,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,qrs_motion_delta_snr,8474,0.007185,-0.168424,0.175610,0.163400,0.188050,1.09e-244,ratio-difference,True,1,0.175610,0.175610,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,artifact_log_reduction,8474,0.083957,-0.539470,0.623427,0.586214,0.661099,0,natural-log power reduction,True,1,0.623427,0.623427,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,hf_noise_log_reduction,8474,0.026562,-1.221151,1.247713,1.195416,1.297537,0,natural-log power reduction,True,1,1.247713,1.247713,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,qrs_corr,8171,0.999952,0.927860,0.072092,0.068099,0.076124,0,correlation,True,1,0.072092,0.072092,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,residual_rms,8474,0.009908,0.009429,0.000479,-0.003908,0.007330,0,normalised ECG amplitude,False,1,0.000479,0.000479,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,beat_f1,8474,0.999945,0.991733,0.008211,0.007245,0.009243,5.19e-89,F1 (input-vs-output beat agreement),True,1,0.008211,0.008211,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,beat_sens,8474,0.999977,0.991444,0.008533,0.007510,0.009613,1.34e-70,sensitivity (beat retention),True,1,0.008533,0.008533,1
+teacher_minus_synthetic_gated,publication_high_noise_patient,rr_mae_ms,8148,0.008510,7.786312,-7.777803,-10.157052,-5.765358,2.78e-260,milliseconds,False,1,-7.777803,-7.777803,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,legacy_delta_snr,1659,-0.272161,28.504214,-28.776375,-30.585043,-26.998652,4.69e-233,ratio-difference,True,1,-28.776375,-28.776375,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,qrs_motion_delta_snr,1659,0.020256,-0.760499,0.780756,0.736046,0.825500,8.29e-243,ratio-difference,True,1,0.780756,0.780756,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,artifact_log_reduction,1659,0.355342,-2.288773,2.644115,2.497553,2.779422,1.95e-225,natural-log power reduction,True,1,2.644115,2.644115,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,hf_noise_log_reduction,1659,0.112339,-5.402056,5.514396,5.406817,5.628124,1.32e-272,natural-log power reduction,True,1,5.514396,5.514396,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,qrs_corr,1656,0.999780,0.653581,0.346199,0.330941,0.361544,6.13e-267,correlation,True,1,0.346199,0.346199,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,residual_rms,1659,0.043542,0.045162,-0.001620,-0.023458,0.034337,1.08e-202,normalised ECG amplitude,False,1,-0.001620,-0.001620,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,beat_f1,1659,0.999736,0.960770,0.038967,0.034494,0.043599,1.84e-81,F1 (input-vs-output beat agreement),True,1,0.038967,0.038967,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,beat_sens,1659,0.999882,0.959179,0.040703,0.035715,0.045427,4.8e-65,sensitivity (beat retention),True,1,0.040703,0.040703,1
+teacher_minus_synthetic_gated,publication_high_noise_and_high_mai,rr_mae_ms,1571,0.014297,37.301766,-37.287469,-48.529290,-27.210910,2.35e-206,milliseconds,False,1,-37.287469,-37.287469,1

@@ -32,16 +32,24 @@ desktop.ini
 .~lock*
 *.tmp
 
-# Large/generated data and outputs
+# Large/generated data and binary outputs
 data/
-output/
-logs/
-checkpoints/
+output/*
+!output/context_stratified_split.json
+!output/norm_stats.json
+logs/*
+!logs/*.json
+!logs/*.csv
+!logs/environment_*.txt
+checkpoints/*
+!checkpoints/SHA256SUMS.txt
 *.h5
 *.hdf5
 *.pt
 *.pth
 *.ckpt
+*.npz
+*.npy
 
 # Local render/check folders produced during manuscript QA
 render_check*/

@@ -1,0 +1,143 @@
+{
+  "method": "context-stratified-patient-split",
+  "seed": 17,
+  "objective_loss": 0.0800362576581486,
+  "splits": {
+    "train": [
+      "P10",
+      "P13",
+      "P14",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P2",
+      "P21",
+      "P23",
+      "P3",
+      "P4",
+      "P5",
+      "P7",
+      "P8",
+      "PNSR-3"
+    ],
+    "val": [
+      "P1",
+      "P12",
+      "P15",
+      "PNSR-4"
+    ],
+    "test": [
+      "P11",
+      "P6",
+      "P9",
+      "PNSR-1"
+    ]
+  },
+  "summary": {
+    "train": {
+      "patients": [
+        "P10",
+        "P13",
+        "P14",
+        "P16",
+        "P17",
+        "P18",
+        "P19",
+        "P2",
+        "P21",
+        "P23",
+        "P3",
+        "P4",
+        "P5",
+        "P7",
+        "P8",
+        "PNSR-3"
+      ],
+      "n_windows": 1235647,
+      "days": 176,
+      "site_dk": 3,
+      "has_af": 6,
+      "nsr_only": 1,
+      "high_motion_pct": 12.370523296702052,
+      "emg_flag_pct": 0.1050461822834515,
+      "noise_pct": 0.013596116042850426,
+      "rpeak_reliable_pct": 32.91198861810857,
+      "mai_mean": 0.03134633723738202,
+      "emg_ratio_mean": 0.21770011066871117,
+      "rhythm_af": 456,
+      "rhythm_nsr": 334,
+      "rhythm_noise": 168
+    },
+    "val": {
+      "patients": [
+        "P1",
+        "P12",
+        "P15",
+        "PNSR-4"
+      ],
+      "n_windows": 292883,
+      "days": 42,
+      "site_dk": 2,
+      "has_af": 3,
+      "nsr_only": 1,
+      "high_motion_pct": 15.189000385819593,
+      "emg_flag_pct": 0.16798516813881312,
+      "noise_pct": 0.0047800657600475275,
+      "rpeak_reliable_pct": 25.730069686530115,
+      "mai_mean": 0.03773479962011681,
+      "emg_ratio_mean": 0.27308998745206065,
+      "rhythm_af": 272,
+      "rhythm_nsr": 57,
+      "rhythm_noise": 14
+    },
+    "test": {
+      "patients": [
+        "P11",
+        "P6",
+        "P9",
+        "PNSR-1"
+      ],
+      "n_windows": 253138,
+      "days": 41,
+      "site_dk": 2,
+      "has_af": 3,
+      "nsr_only": 1,
+      "high_motion_pct": 13.393089935134196,
+      "emg_flag_pct": 0.30931744740023226,
+      "noise_pct": 0.005135538718011519,
+      "rpeak_reliable_pct": 30.26965528683959,
+      "mai_mean": 0.03318985950169874,
+      "emg_ratio_mean": 0.295725810370418,
+      "rhythm_af": 1,
+      "rhythm_nsr": 222,
+      "rhythm_noise": 13
+    }
+  },
+  "source_splits": {
+    "P1": "train",
+    "P11": "train",
+    "P12": "train",
+    "P13": "train",
+    "P14": "train",
+    "P15": "train",
+    "P18": "train",
+    "P19": "train",
+    "P2": "train",
+    "P21": "train",
+    "P23": "train",
+    "P4": "train",
+    "P5": "train",
+    "P6": "train",
+    "P7": "train",
+    "PNSR-1": "train",
+    "P10": "val",
+    "P17": "val",
+    "P8": "val",
+    "PNSR-4": "val",
+    "P16": "test",
+    "P3": "test",
+    "P9": "test",
+    "PNSR-3": "test"
+  }
+}
